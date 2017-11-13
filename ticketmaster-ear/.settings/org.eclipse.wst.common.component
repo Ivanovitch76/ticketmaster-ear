@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ticketmaster-ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ticketmaster-ejb.jar" deploy-path="/" handle="module:/resource/ticketmaster-ejb/ticketmaster-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="it-ticketmaster.jar" deploy-path="/lib" handle="module:/classpath/lib/ticketmaster-dao/archive/it-ticketmaster.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="it-ticketmaster-dto.jar" deploy-path="/lib" handle="module:/classpath/lib/ticketmaster-dto/archives/it-ticketmaster-dto.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
